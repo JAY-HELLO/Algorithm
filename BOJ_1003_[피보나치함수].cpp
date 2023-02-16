@@ -9,6 +9,8 @@ using namespace std;
 각 fibonacci 함수에 0 과 1이 몇번씩 들어가 있는지를 미리 저장한다
 즉 fibo (1)에는 1 이 1번 0 이 0번 이라는 것을 저장한다.
 
+//주의사항
+vector을 매개변수로 함수에 계속 전달해 주면 시간초과 오류가 난다.
 */
 int cnt_zero;
 int cnt_one;
