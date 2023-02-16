@@ -15,7 +15,7 @@ vector을 매개변수로 함수에 계속 전달해 주면 시간초과 오류�
 int cnt_zero;
 int cnt_one;
 vector<vector<int>>vc(41,vector<int>(2,0));
-
+ 
 
 int fibonacci(int n, int num){
 
