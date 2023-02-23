@@ -29,6 +29,5 @@ int main(void){
 
     cout<<func(vc,n);
 
-
     return 0;
 }
