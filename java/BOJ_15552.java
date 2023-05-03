@@ -10,7 +10,7 @@ public class BOJ_15552 {
             String s = br.readLine();
             int a = Integer.parseInt(s.split(" ")[0]);
             int b = Integer.parseInt(s.split(" ")[1]);
-            bw.write(a+b + "\n");
+            bw.write(a+b + "\n")
         }
 
     }
