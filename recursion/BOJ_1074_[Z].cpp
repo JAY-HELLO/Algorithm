@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+ 
 int func(int N, int r, int c){
     if(N==0) return 0;
     int half = (1<<N-1);
@@ -18,8 +18,6 @@ int main(void){
     int N, r, c;
     cin>>N>>r>>c;
     
-    
-
     cout<<func(N,r,c);
     
     return 0;
