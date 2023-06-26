@@ -22,6 +22,7 @@ int main(void){
     if(num==1){
         D[1][1] = vc[1];
     }else if(num==2){
+        D[1][1] = vc[1];
         D[2][1] = vc[2];
         D[2][2] = D[1][1] + vc[2];
     }else{
